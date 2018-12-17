@@ -15,7 +15,7 @@ plugins {
 
 launch4j {
     outfile = 'swing-demo.exe'
-    mainClassName = project.mainClassName
+    mainClassName = swing-demo.main
 }
 
 // In this section you declare where to find the dependencies of your project
