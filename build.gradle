@@ -13,6 +13,11 @@ plugins {
   id 'edu.sc.seis.launch4j'
 }
 
+launch4j {
+    outfile = 'swing-demo.exe'
+    mainClassName = project.mainClassName
+}
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use 'jcenter' for resolving your dependencies.
